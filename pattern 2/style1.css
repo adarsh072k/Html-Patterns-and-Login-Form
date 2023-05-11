@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(137, 137, 237);
+}
+
+.container
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.rectangle
+{
+    height: 500px;
+    margin-right: 10px;
+}
+
+.rectangle.odd
+{
+    width:200px;
+    margin-right: 40px;
+    background-color: rgb(44, 44, 166);
+}
+
+.rectangle.even
+{
+    width: 55px;
+    margin-right: 40px;
+    background-color: white;
+}

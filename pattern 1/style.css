@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(8, 8, 8, 0.762);
+}
+
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-color: rgb(51, 140, 192);
+    
+}
+
+.quarter-circle
+{
+    top: 45%;
+    right:25%;
+    width: 100px;
+    height: 111px;
+    opacity: 50%;
+    background-color: rgb(107, 217, 239);
+    border-radius: 0 0 0 200px;
+    position:relative;
+    overflow: hidden;
+}
+
+
+.rectangle
+{
+    position: absolute;
+    top: 90%;
+    left:0;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 175px;
+    background-color: rgb(247, 247, 140);
+}
+
+
