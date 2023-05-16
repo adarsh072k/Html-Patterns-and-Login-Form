@@ -1,0 +1,35 @@
+body{
+    background-color:aliceblue;
+}
+
+.green
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.container
+{
+    margin: 0px;
+}
+
+.red
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+.blue
+{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+
